@@ -2,6 +2,7 @@ name = "WebAssembly Text Format"
 grammar = "wat"
 path_suffixes = ["wat"]
 line_comments = [";; "]
+autoclose_before = ")"
 brackets = [
   { start = "(", end = ")", close = true, newline = true },
   { start = "\"", end = "\"", close = true, newline = false, not_in = [
