@@ -1,7 +1,8 @@
 name = "WebAssembly Text Format"
 grammar = "wat"
 path_suffixes = ["wat"]
-line_comments = [";; "]
+line_comments = [";; ", ";;; "]
+tab_size = 2
 autoclose_before = ")"
 brackets = [
   { start = "(", end = ")", close = true, newline = true },
@@ -10,3 +11,4 @@ brackets = [
       "comment",
   ] },
 ]
+word_characters = ["!", "#", "$", "%", "'", "*", "+", "-", ".", "/", ":", "<", "=", ">", "?", "@", "\\", "^", "_", "`", "|", "~"]
