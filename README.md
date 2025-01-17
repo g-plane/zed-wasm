@@ -1,6 +1,7 @@
 # WebAssembly Language Tools for Zed
 
-Zed extension of WebAssembly Language Tools. This extension provides language support of WebAssembly Text Format.
+Zed extension of [WebAssembly Language Tools](https://github.com/g-plane/wasm-language-tools).
+This extension provides language support of WebAssembly Text Format.
 
 ## License
 
