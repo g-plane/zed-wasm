@@ -1,5 +1,5 @@
 [package]
-name = "zed-wat"
+name = "zed-wasm"
 version = "0.0.0"
 description = "Language support of WebAssembly Text Format"
 authors = ["Pig Fang <g-plane@hotmail.com>"]
