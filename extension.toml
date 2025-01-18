@@ -4,6 +4,7 @@ version = "0.1.0"
 schema_version = 1
 authors = ["Pig Fang <g-plane@hotmail.com>"]
 description = "Language support of WebAssembly Text Format"
+repository = "https://github.com/g-plane/zed-wasm"
 
 [grammars.wat]
 repository = "https://github.com/wasm-lsp/tree-sitter-wasm"
