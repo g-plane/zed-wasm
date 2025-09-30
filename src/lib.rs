@@ -56,7 +56,7 @@ impl Extension {
                 "https://github.com/g-plane/wasm-language-tools/releases/download/{}/wat_server-{}-{}.zip",
                 release.version,
                 match arch {
-                    Architecture::Aarch64 => "arm",
+                    Architecture::Aarch64 => "arm64",
                     Architecture::X8664 => "x86_64",
                     Architecture::X86=>"x86",
                 },
