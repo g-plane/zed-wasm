@@ -1,14 +1,21 @@
-(comment_block) @comment
-(comment_line) @comment
+(block_comment) @comment
+(line_comment) @comment
 
 [
+  "array"
   "block"
+  "catch"
+  "catch_ref"
+  "catch_all"
+  "catch_all_ref"
   "data"
   "declare"
   "elem"
   "else"
   "end"
   "export"
+  "field"
+  "final"
   "func"
   "global"
   "if"
@@ -19,31 +26,29 @@
   "memory"
   "module"
   "mut"
+  "null"
   "offset"
+  "pagesize"
   "param"
+  "rec"
+  "ref"
   "result"
+  "shared"
   "start"
+  "struct"
+  "sub"
   "table"
+  "tag"
   "then"
+  "try_table"
   "type"
+  "unshared"
 ] @keyword
 
-(int) @number
+(integer) @number
 (float) @number
 
-(op_nullary) @operator
-(op_index) @operator
-(op_index_opt) @operator
-(op_index_opt_offset_opt_align_opt) @operator
-(op_simd_offset_opt_align_opt) @operator
-(op_const) @operator
-(op_func_bind) @operator
-(op_let) @operator
-(op_select) @operator
-(op_simd_const) @operator
-(op_simd_lane) @operator
-(op_table_copy) @operator
-(op_table_init) @operator
+(instr_name) @operator
 
 [
   "(" ")"
@@ -51,7 +56,13 @@
 
 (string) @string
 
-(value_type) @type.builtin
+(num_type) @type.builtin
+(vec_type) @type.builtin
 
 (identifier) @variable
-(nat) @variable
+(index) @variable
+
+(module_field_func
+  (identifier) @function)
+(extern_type_func
+  (identifier) @function)

@@ -7,9 +7,8 @@ description = "Language support of WebAssembly Text Format"
 repository = "https://github.com/g-plane/zed-wasm"
 
 [grammars.wat]
-repository = "https://github.com/wasm-lsp/tree-sitter-wasm"
-commit = "2ca28a9f9d709847bf7a3de0942a84e912f59088"
-path = "wat"
+repository = "https://github.com/g-plane/tree-sitter-wat"
+commit = "20d139ef7133257bdebec52711c7cbb388bd4092"
 
 [language_servers.wasm-language-tools]
 name = "WebAssembly Language Tools"
