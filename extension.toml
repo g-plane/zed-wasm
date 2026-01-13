@@ -1,6 +1,6 @@
 id = "wat"
 name = "WebAssembly Text Format"
-version = "0.2.0"
+version = "0.2.1"
 schema_version = 1
 authors = ["Pig Fang <g-plane@hotmail.com>"]
 description = "Language support of WebAssembly Text Format"
