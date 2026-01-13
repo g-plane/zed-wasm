@@ -8,7 +8,7 @@ repository = "https://github.com/g-plane/zed-wasm"
 
 [grammars.wat]
 repository = "https://github.com/g-plane/tree-sitter-wat"
-commit = "20d139ef7133257bdebec52711c7cbb388bd4092"
+commit = "5a63669d9dd8eba5318801a5c1b3fbea6ccf6102"
 
 [language_servers.wasm-language-tools]
 name = "WebAssembly Language Tools"
